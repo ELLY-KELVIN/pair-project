@@ -46,4 +46,28 @@ nav ul li a {
 
 .pets {
   display: flex;
+  height: 60vh;
+}
+
+.col1 {
+  width: 50%;
+  background-image: url("images/pet_love.jpg");
+  background-size: cover;
+  text-align: right;
+  padding: 5%;
+}
+
+.col1 h4 {
+  color: #3A98F0;
+  font-size: 100px;
+  font-weight: 700px; 
+}
+
+.col2 {
+  width: 50%;
+}
+
+.row1 {
+  height: 50%;
+  background-image: url("images/adopt_me.jpeg");
 }
