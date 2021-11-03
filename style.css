@@ -12,6 +12,11 @@ header {
   
 }
 
+.logo:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 250ms;
+  cursor: pointer;
+}
 nav ul li {
   list-style: none;
   display: inline-block;
@@ -24,7 +29,19 @@ nav ul li a {
   color: rgb(50, 50, 50);
   font-weight: 600;
   font-size: 18px;
+  
 }
+
+nav ul li:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 250ms;
+  
+}
+
+nav ul li a:hover {
+  color: #3A98F0;
+}
+
 .hero {
   background-image: url("images/hero.jpg");
   text-align: center;
