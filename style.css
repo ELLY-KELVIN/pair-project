@@ -59,8 +59,12 @@ nav ul li a {
 
 .col1 h4 {
   color: #3A98F0;
-  font-size: 100px;
-  font-weight: 700px; 
+  font-size: 80px;
+  font-weight: 900px; 
+}
+
+.col1 p {
+  font-size: 20px;
 }
 
 .col2 {
@@ -70,4 +74,64 @@ nav ul li a {
 .row1 {
   height: 50%;
   background-image: url("images/adopt_me.jpeg");
+  text-align: right;
+  padding-right: 500px;
+  padding-top: 100px;
+}
+
+.row1 h4 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.row2 {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  background-color: #3A98F0ff;
+}
+
+
+.image img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+
+.text {
+  margin-left: 30px;
+}
+
+.text h4 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 40px;
+  color: white;
+}
+
+.text p {
+  font-size: 20px;
+  padding-top: 20px;
+  color: white;
+}
+
+.family {
+  height: 50vh;
+  overflow: hidden;
+}
+
+.family img {
+  max-width: 100vw;
+}
+
+.footer {
+  height: 50px;
+  background-color: #3A98F0ff;
+  text-align: center;
+}
+
+.footer p {
+  padding-top: 15px;
 }
